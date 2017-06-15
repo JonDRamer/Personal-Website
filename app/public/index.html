@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +15,17 @@
   <link rel="stylesheet" href="./styles/styles.css" media="screen" title="no title">
 
   <!-- JS SCRIPTS -->
+  <script type="text/javascript" src="./app.config.js"></script>
+  <script type="text/javascript" src="./home/home.component.js"></script>
+
+  </script>
+
+  </script>
 
 </head>
 <body>
-  <h1>Hello World!</h1>
+
+  <ui-view></ui-view>
+
 </body>
 </html>
