@@ -10,12 +10,13 @@ header {
   flex-flow: row wrap;
   height: 40vh;
   width: 100vw;
-  background-color: #041827;
+  background-color: #ffffff;
   box-shadow: 6px 7px 22px -2px rgba(0, 0, 0, 0.75);
 }
 
 .welcome {
   color: black;
+  margin-top: 5%;
 }
 
 .headshot {
@@ -30,7 +31,7 @@ header {
   justify-content: center;
   flex-flow: row wrap;
   width: 100%;
-  color: white;
+  color: black;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
@@ -89,6 +90,7 @@ footer {
   flex-flow: row wrap;
   height: 10vh;
   width: 100vw;
-  background-color: #041827;
+  background-color: #ffffff;
   border: 1px solid white;
+  box-shadow: 6px 7px 22px 2px rgba(0, 0, 0, 0.75);
 }
