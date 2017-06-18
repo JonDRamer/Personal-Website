@@ -87,10 +87,42 @@ h4 {
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
-  height: 10vh;
+  height: 12vh;
   width: 100vw;
   background-color: #ffffff;
   border: 1px solid white;
   box-shadow: 6px 7px 22px 2px rgba(0, 0, 0, 0.75);
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  height: 100%;
+  width: 30%;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  height: 8g0%;
+  width: 30%;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.glyphicon {
+  height: 60px;
+  width: 60px;
 }
