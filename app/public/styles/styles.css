@@ -17,17 +17,27 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
-  width: 30vh;
+  width: 40vh;
   margin-right: 10%;
 }
 
 .navText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
   font-family: 'Open Sans', sans-serif;
+  height: 5vh;
+  width: 5vw;
+  margin-bottom: 0px;
 }
 
 .navText:hover {
   cursor: pointer;
+  height: 5vh;
+  width: 5vw;
+  color: white;
+  background-color: #42718B;
 }
 
 .hero {
@@ -100,10 +110,6 @@ section {
   width: 35vh;
 }
 
-section:hover {
-  cursor: pointer;
-}
-
 
 /*Project Titles*/
 
@@ -115,6 +121,10 @@ h4 {
   font-weight: 300;
 }
 
+h4:hover {
+  cursor: pointer;
+}
+
 
 /*Project Images*/
 
@@ -122,6 +132,10 @@ h4 {
   height: 150px;
   width: 150px;
   box-shadow: 6px 7px 22px -2px rgba(0, 0, 0, 0.75);
+}
+
+.thumbnail:hover {
+  cursor: pointer;
 }
 
 footer {
@@ -151,6 +165,10 @@ footer {
   flex-flow: row wrap;
   height: 80%;
   width: 30%;
+}
+
+.icon:hover {
+  cursor: pointer;
 }
 
 .label {
