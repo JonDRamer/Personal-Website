@@ -27,7 +27,7 @@ nav {
 }
 
 .navText:hover {
-  font-size: 60px;
+  cursor: pointer;
 }
 
 .hero {
@@ -97,7 +97,11 @@ section {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width: 30vh;
+  width: 35vh;
+}
+
+section:hover {
+  cursor: pointer;
 }
 
 
