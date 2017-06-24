@@ -1,17 +1,31 @@
 body {
   display: flex;
+  justify-content: center;
   height: 100vh;
   width: 100vw;
 }
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   flex-flow: row wrap;
-  height: 40vh;
+  height: 10vh;
   width: 100vw;
-  background-color: #ffffff;
-  box-shadow: 6px 7px 22px -2px rgba(0, 0, 0, 0.75);
+  background-color: ;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  width: 20%;
+  margin-right: 10%;
+}
+
+.navText {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .welcome {
@@ -26,12 +40,21 @@ header {
   border-radius: 100%;
 }
 
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-color: #42718B;
+  height: 40vh;
+  width: 100vw;
+}
+
 .headerText {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   width: 100%;
-  color: black;
+  color: white;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
@@ -60,7 +83,7 @@ main {
   margin-bottom: 5%;
 }
 
-section {
+.projects {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -99,7 +122,6 @@ footer {
 .footerContainer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   flex-flow: row wrap;
   height: 100%;
   width: 30%;
