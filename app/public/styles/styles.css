@@ -27,6 +27,7 @@ nav {
   align-items: center;
   color: black;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   height: 5vh;
   width: 5vw;
   margin-bottom: 0px;
@@ -34,8 +35,6 @@ nav {
 
 .navText:hover {
   cursor: pointer;
-  height: 5vh;
-  width: 5vw;
   color: white;
   background-color: #42718B;
 }
@@ -64,7 +63,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  width: 100%;
+  width: 100vw;
   color: white;
   margin-top: 0;
   margin-bottom: 0;
@@ -95,9 +94,9 @@ main {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 5%;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 5vh;
 }
 
 
@@ -138,6 +137,45 @@ h4:hover {
   cursor: pointer;
 }
 
+
+/*About Section*/
+
+.about {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #42718B;
+  height: 60vh;
+  width: 100vw;
+}
+
+.aboutHeader {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100vw;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.aboutText {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100vw;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -167,10 +205,6 @@ footer {
   width: 30%;
 }
 
-.icon:hover {
-  cursor: pointer;
-}
-
 .label {
   display: flex;
   justify-content: center;
@@ -182,4 +216,8 @@ footer {
 .glyphicon {
   height: 60px;
   width: 60px;
+}
+
+.glyphicon:hover {
+  cursor: pointer;
 }

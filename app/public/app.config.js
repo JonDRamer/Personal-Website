@@ -20,7 +20,6 @@
         url: '/home',
         component: 'home'
       });
-
   }
 
 }());
