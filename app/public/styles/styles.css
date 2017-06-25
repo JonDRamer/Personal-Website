@@ -1,3 +1,41 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*---------------------MY CSS STARTS HERE-----------------------------------*/
+
 body {
   height: 100vh;
   width: 100vw;
@@ -11,6 +49,7 @@ header {
   height: 12vh;
   width: 100vw;
   background-color: white;
+  position: fixed;
 }
 
 nav {
@@ -50,7 +89,7 @@ nav {
   justify-content: center;
   flex-flow: row wrap;
   background-color: #42718B;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
 }
 
@@ -60,7 +99,7 @@ nav {
 .headshot {
   height: 300px;
   width: 300px;
-  margin-top: 7vh;
+  margin-top: 19vh;
   border: 5px solid white;
   border-radius: 100%;
 }
@@ -139,6 +178,7 @@ h4 {
   width: 100vw;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  margin-top: 3vh;
 }
 
 h4:hover {
@@ -167,7 +207,7 @@ h4:hover {
   align-items: center;
   flex-flow: row wrap;
   background-color: #42718B;
-  height: 60vh;
+  height: 70vh;
   width: 100vw;
 }
 
@@ -263,6 +303,8 @@ footer {
   height: 12vh;
   width: 100vw;
   background-color: #42718B;
+  position: fixed;
+  margin-bottom: 5vh;
 }
 
 resumeNav {
@@ -298,6 +340,6 @@ resumeNav {
 }
 
 .resume {
-  margin-top: 5vh;
+  /*margin-top: 5vh;*/
   margin-bottom: 5vh;
 }

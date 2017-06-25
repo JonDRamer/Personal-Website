@@ -19,6 +19,19 @@
       $state.go('resume');
     }
 
+    vm.jumpToPortfolio = function() {
+      $('body,html')
+        .animate({
+          scrollTop: 700
+        }, 800);
+    }
+
+    vm.jumpToAbout = function() {
+      $('body,html')
+        .animate({
+          scrollTop: 1500
+        }, 800);
+    }
   }
 
 }());
