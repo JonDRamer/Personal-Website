@@ -19,6 +19,11 @@
         name: 'home',
         url: '/home',
         component: 'home'
+      })
+      .state({
+        name: 'resume',
+        url: '/resume',
+        component: 'resume'
       });
   }
 
