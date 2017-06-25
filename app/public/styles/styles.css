@@ -17,8 +17,14 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
-  width: 50vh;
-  margin-right: 10%;
+  width: 30vw;
+  margin-right: 10vw;
+}
+
+@media (max-width: 942px) {
+  .nav {
+    width: 50vw;
+  }
 }
 
 .navText {
@@ -54,7 +60,7 @@ nav {
 .headshot {
   height: 300px;
   width: 300px;
-  margin-top: 7%;
+  margin-top: 7vh;
   border: 5px solid white;
   border-radius: 100%;
 }
@@ -79,7 +85,7 @@ nav {
   width: 100vw;
   color: white;
   margin-top: 0;
-  margin-bottom: 7%;
+  margin-bottom: 7vh;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
@@ -91,15 +97,13 @@ nav {
 h1 {
   display: flex;
   justify-content: center;
-  width: 100%;
-  height: 10%;
+  width: 100vw;
+  height: 10vh;
   color: black;
-  width: 100%;
-  height: 10%;
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   font-weight: 600;
-  margin-top: 3%;
+  margin-top: 3vh;
   margin-bottom: 0;
 }
 
@@ -118,20 +122,12 @@ main {
 
 /*Projects*/
 
-
-/*section {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  width: 35vh;
-}*/
-
 .project {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   width: 35vh;
-  margin-top: 5%;
+  margin-top: 5vh;
 }
 
 
@@ -140,7 +136,7 @@ main {
 h4 {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
@@ -167,10 +163,18 @@ h4:hover {
 
 .about {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
   background-color: #42718B;
   height: 60vh;
   width: 100vw;
+}
+
+@media (max-width: 418px) {
+  .about {
+    height: 80vh;
+  }
 }
 
 .aboutHeader {
@@ -189,16 +193,20 @@ h4:hover {
 .aboutText {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
-  width: 100vw;
+  width: 30vw;
   color: white;
   margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  /*margin-bottom: 20vh;*/
+  padding: 2vw;
   font-size: 25px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
+}
+
+@media (max-width: 924px) {
+  .aboutText {
+    width: 100vw;
+  }
 }
 
 footer {
