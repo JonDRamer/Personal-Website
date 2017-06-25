@@ -254,3 +254,50 @@ footer {
 .glyphicon:hover {
   cursor: pointer;
 }
+
+.resumeHeader {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-flow: row wrap;
+  height: 12vh;
+  width: 100vw;
+  background-color: #42718B;
+}
+
+resumeNav {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  width: 30vw;
+  margin-right: 10vw;
+}
+
+@media (max-width: 942px) {
+  .resumeNav {
+    width: 50vw;
+  }
+}
+
+.resumeNavText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  height: 7vh;
+  width: 6vw;
+  margin-bottom: 0px;
+}
+
+.resumeNavText:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+.resume {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}

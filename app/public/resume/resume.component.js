@@ -7,12 +7,17 @@
       templateUrl: '../resume/resume.template.html'
     });
 
-  function controller() {
+  controller.$inject = ['$state'];
+
+  function controller($state) {
     const vm = this;
 
     // vm.$onInit = function() {
-    //
     // }
+
+    vm.goHome = function() {
+      $state.go('home');
+    }
 
   }
 
