@@ -44,7 +44,7 @@ nav {
   justify-content: center;
   flex-flow: row wrap;
   background-color: #42718B;
-  height: 40vh;
+  height: 50vh;
   width: 100vw;
 }
 
@@ -167,8 +167,8 @@ h4:hover {
   flex-flow: row wrap;
   width: 100vw;
   color: white;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: 20vw;
   margin-right: 20vw;
   font-size: 25px;
