@@ -12,8 +12,12 @@
   function controller($state) {
     const vm = this;
 
-    // vm.$onInit = function() {
-    // }
+    vm.$onInit = function() {
+      $('body,html')
+        .animate({
+          scrollTop: 0
+        }, 0);
+    }
 
     vm.goHome = function() {
       $state.go('home');

@@ -23,7 +23,7 @@
       $('body,html')
         .animate({
           scrollTop: 700
-        }, 800);
+          }, 800);
     }
 
     vm.jumpToAbout = function() {
