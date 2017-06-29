@@ -79,8 +79,7 @@ nav {
 
 .navText:hover {
   cursor: pointer;
-  color: white;
-  background-color: #42718B;
+  color: #DCDCDC;
 }
 
 .hero {
@@ -212,8 +211,9 @@ h4:hover {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #42718B;
+  background-color: black;
   width: 100vw;
+  background-image: url("../assets/project.jpeg");
 }
 
 .aboutHeader {
@@ -234,8 +234,8 @@ h4:hover {
   width: 60vw;
   color: white;
   margin-top: 0;
-  margin-bottom: 5vh;
-  padding: 2vw;
+  margin-bottom: 0;
+  padding: 2vh;
   line-height: 1.5;
   letter-spacing: 1px;
   font-size: 25px;
@@ -289,23 +289,13 @@ footer {
   cursor: pointer;
 }
 
-.resumeHeader {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  flex-flow: row wrap;
-  height: 12vh;
-  width: 100vw;
-  background-color: #42718B;
-  position: fixed;
-  box-shadow: 3px 4px 10px -2px rgba(0, 0, 0, 0.75);
+a {
+  color: white;
+  text-decoration: none;
 }
 
-resumeNav {
-  display: flex;
-  justify-content: center;
-  flex-direction: row wrap;
-  width: 30vw;
+a:hover {
+  color: #DCDCDC;
 }
 
 
@@ -314,9 +304,9 @@ resumeNav {
 .featuredProject {
   height: 300px;
   width: 300px;
-  margin-top: 19vh;
+  margin-top: 7vh;
   border: 5px solid white;
-  /*border-radius: 100%;*/
+  border-radius: 100%;
 }
 
 .aboutProject {
@@ -342,5 +332,12 @@ resumeNav {
   font-weight: 200;
 }
 
-
+.projectHero {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  /*background-color: #42718B;*/
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../assets/project.jpeg");
 }
