@@ -55,16 +55,18 @@ header {
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: row wrap;
-  width: 30vw;
+  height: 10vh;
+  width: 100vw;
+  margin-right: 10vw;
 }
 
 .navText {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -96,7 +98,7 @@ nav {
 .headshot {
   height: 300px;
   width: 300px;
-  margin-top: 19vh;
+  margin-top: 7vh;
   border: 5px solid white;
   border-radius: 100%;
 }
@@ -305,6 +307,7 @@ resumeNav {
   width: 30vw;
 }
 
+
 /*-----------------------------PROJECT PAGES---------------------------------*/
 
 .featuredProject {
@@ -312,6 +315,7 @@ resumeNav {
   width: 300px;
   margin-top: 19vh;
   border: 5px solid white;
+  /*border-radius: 100%;*/
 }
 
 .aboutProject {
@@ -335,4 +339,7 @@ resumeNav {
   font-size: 25px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
+}
+
+
 }
