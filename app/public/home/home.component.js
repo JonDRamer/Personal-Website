@@ -15,19 +15,29 @@
     // vm.$onInit = function() {
     // }
 
-    vm.loadResume = function() {
-      $state.go('resume');
-    }
+    vm.loadItunes = () => $state.go('itunes');
+    vm.loadSimon = () => $state.go('simon');
+    vm.loadReactSimon = () => $state.go('reactsimon');
+    vm.loadReddit = () => $state.go('reddit');
+    vm.loadBwwmc = () => $state.go('bwwmc');
 
     vm.jumpToPortfolio = function() {
-      $('body,html')
+      // $('body,html')
+      //   .animate({
+      //     scrollTop: 700
+      //     }, 800);
+      let portfolio = $('#portfolioSection')
+        .offset()
+        .top - 120;
+      console.log(portfolio);
+      $('body')
         .animate({
-          scrollTop: 700
-          }, 800);
+          scrollTop: portfolio
+        }, 800);
     }
 
     vm.jumpToAbout = function() {
-      $('body,html')
+      $('body')
         .animate({
           scrollTop: 1500
         }, 800);

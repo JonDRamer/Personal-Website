@@ -65,14 +65,14 @@ nav {
   justify-content: center;
   align-items: center;
   color: black;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  letter-spacing: 1px;
   height: 7vh;
-  margin-top: 7px;
-  margin-left: 7px;
-  margin-right: 7px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .navText:hover {
@@ -305,27 +305,34 @@ resumeNav {
   width: 30vw;
 }
 
-.resumeNavText {
+/*-----------------------------PROJECT PAGES---------------------------------*/
+
+.featuredProject {
+  height: 300px;
+  width: 300px;
+  margin-top: 19vh;
+  border: 5px solid white;
+}
+
+.aboutProject {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  height: 7vh;
-  margin-top: 7px;
-  margin-left: 7px;
-  margin-right: 7px;
+  flex-flow: row wrap;
+  width: 100vw;
 }
 
-.resumeNavText:hover {
-  cursor: pointer;
-  color: #42718B;
-  background-color: white;
-}
-
-.resume {
-  margin-top: 15vh;
+.projectText {
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+  color: black;
+  margin-top: 0;
   margin-bottom: 5vh;
+  padding: 2vw;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
 }

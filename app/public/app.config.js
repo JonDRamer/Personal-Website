@@ -17,13 +17,33 @@
     $stateProvider
       .state({
         name: 'home',
-        url: '/home',
+        url: '/Home',
         component: 'home'
       })
       .state({
-        name: 'resume',
-        url: '/resume',
-        component: 'resume'
+        name: 'itunes',
+        url: '/Guess-That-Song',
+        component: 'itunes'
+      })
+      .state({
+        name: 'simon',
+        url: '/Simon',
+        component: 'simon'
+      })
+      .state({
+        name: 'reactsimon',
+        url: '/React-Native-Simon',
+        component: 'reactsimon'
+      })
+      .state({
+        name: 'reddit',
+        url: '/Reddit',
+        component: 'reddit'
+      })
+      .state({
+        name: 'bwwmc',
+        url: '/BWWMC',
+        component: 'bwwmc'
       });
   }
 

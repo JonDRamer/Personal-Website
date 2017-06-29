@@ -1,7 +1,7 @@
 <header>
   <nav>
     <p class="navText" ng-click="$ctrl.jumpToPortfolio()">Portfolio</p>
-    <p class="navText" ng-click="$ctrl.loadResume()">Résumé</p>
+    <!-- <p class="navText" ng-click="$ctrl.loadResume()">Résumé</p> -->
     <p class="navText" ng-click="$ctrl.jumpToAbout()">About</p>
     <p class="navText">Contact</p>
   </nav>
@@ -14,29 +14,29 @@
 </section>
 
 
-<h1>Portfolio</h1>
+<h1 id="portfolioSection">Portfolio</h1>
 
 <main>
-  <section class="project">
+  <section class="project" ng-click="$ctrl.loadItunes()">
     <img class="thumbnail" src="../assets/itunes.png" alt="">
     <h4>My First Web App</h4>
   </section>
-    <section class="project">
+    <section class="project" ng-click="$ctrl.loadSimon()">
       <img class="thumbnail" src="../assets/RetroSimon.png" alt="">
       <h4>Javascript Simon</h4>
     </section>
 
-    <section class="project">
+    <section class="project" ng-click="$ctrl.loadReactSimon()">
       <img class="thumbnail" src="../assets/RetroSimon.png" alt="">
       <h4>React Native Simon</h4>
     </section>
 
-    <section class="project">
+    <section class="project" ng-click="$ctrl.loadReddit()">
       <img class="thumbnail" src="../assets/reddit.png" alt="">
       <h4>Angular Reddit Clone</h4>
     </section>
 
-    <section class="project">
+    <section class="project" ng-click="$ctrl.loadBwwmc()">
       <img class="thumbnail" src="../assets/BWWMC.png" alt="">
       <h4>BWWMC</h4>
     </section>
