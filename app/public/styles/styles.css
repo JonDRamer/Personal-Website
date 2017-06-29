@@ -116,6 +116,10 @@ nav {
   font-weight: 600;
 }
 
+.name:hover {
+  color: #DCDCDC;
+}
+
 .title {
   display: flex;
   justify-content: center;
@@ -127,6 +131,10 @@ nav {
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
+}
+
+.title:hover {
+  color: #DCDCDC;
 }
 
 @media (max-width: 355px) {
@@ -147,7 +155,7 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   font-weight: 600;
-  margin-top: 3vh;
+  margin-top: 5vh;
   margin-bottom: 0;
 }
 
@@ -160,7 +168,7 @@ main {
   flex-flow: row wrap;
   margin-left: 20vw;
   margin-right: 20vw;
-  margin-bottom: 5vh;
+  margin-bottom: 19vh;
 }
 
 

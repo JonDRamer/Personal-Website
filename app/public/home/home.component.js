@@ -28,8 +28,7 @@
       //     }, 800);
       let portfolio = $('#portfolioSection')
         .offset()
-        .top - 120;
-      console.log(portfolio);
+        .top;
       $('body')
         .animate({
           scrollTop: portfolio
