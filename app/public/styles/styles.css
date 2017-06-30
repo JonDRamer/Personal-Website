@@ -89,7 +89,10 @@ nav {
   /*background-color: #42718B;*/
   height: 100vh;
   width: 100vw;
-  background-image: url("../assets/laptop2.jpg");
+  background-image: url("../assets/laptop.png");
+  /*opacity: .8;*/
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
