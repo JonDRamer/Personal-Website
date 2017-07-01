@@ -275,11 +275,6 @@ h4:hover {
   font-weight: 600;
 }
 
-.fa fa-arrow-down {
-  width: 100vw;
-  text-align: center;
-}
-
 .skill {
   display: flex;
   justify-content: center;
@@ -307,7 +302,24 @@ h4:hover {
 
 .chatHeader {
   width: 100vw;
-  /*margin-bottom: 15vh; these should be media queries*/
+  text-align: center;
+  margin-top: 7vh;
+}
+
+@media (max-width: 650px) {
+  .chatHeader {
+    margin-bottom: 10vh;
+  }
+}
+
+@media (max-width: 390px) {
+  .chatHeader {
+    margin-bottom: 17vh;
+  }
+}
+
+.arrow {
+  margin-bottom: 7vh;
 }
 
 footer {
@@ -333,9 +345,8 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  /*margin-top: 5vh;*/
-  /*margin-bottom: 5vh;*/
-  height: 15vh;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
 }
 
 .label {
