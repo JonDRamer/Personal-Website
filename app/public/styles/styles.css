@@ -62,6 +62,12 @@ nav {
   margin-right: 10vw;
 }
 
+@media (max-width: 400px) {
+  nav {
+    margin-right: 0vw;
+  }
+}
+
 .navText {
   display: flex;
   justify-content: center;
@@ -234,7 +240,7 @@ h4:hover {
   flex-flow: row wrap;
   width: 100vw;
   color: white;
-  margin-top: 20px;
+  margin-top: 7vh;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -245,8 +251,8 @@ h4:hover {
   justify-content: center;
   width: 60vw;
   color: white;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   padding: 2vh;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -273,6 +279,11 @@ h4:hover {
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
+}
+
+.fa-code {
+  text-align: center;
+  width: 100vw;
 }
 
 .skill {

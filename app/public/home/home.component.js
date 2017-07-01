@@ -22,7 +22,7 @@
     vm.loadBwwmc = () => $state.go('bwwmc');
 
     vm.jumpToPortfolio = function() {
-      let portfolio = $('#portfolioSection')
+      let portfolio = $('main')
         .offset()
         .top;
       $('body')
@@ -32,23 +32,32 @@
     }
 
     vm.jumpToAbout = function() {
-      let aboutHeader = $('.aboutHeader')
+      let about = $('.about')
         .offset()
         .top;
       $('body')
         .animate({
-          scrollTop: aboutHeader
+          scrollTop: about
         }, 800);
     }
 
     vm.jumpToFooter = function() {
-      console.log("clicked");
       let footer = $('footer')
         .offset()
         .top;
       $('body')
         .animate({
           scrollTop: footer
+        }, 800);
+    }
+
+    vm.jumpToSkills = function() {
+      let skills = $('.skills')
+        .offset()
+        .top;
+      $('body')
+        .animate({
+          scrollTop: skills
         }, 800);
     }
   }

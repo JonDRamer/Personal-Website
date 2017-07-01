@@ -1,7 +1,8 @@
 <section class="hero">
-  <nav>
+  <nav @media="max-width 400px">
     <p class="navText" ng-click="$ctrl.jumpToPortfolio()">Portfolio</p>
     <p class="navText" ng-click="$ctrl.jumpToAbout()">About</p>
+    <p class="navText" ng-click="$ctrl.jumpToSkills()">Skills</p>
     <p class="navText" ng-click="$ctrl.jumpToFooter()">Contact</p>
   </nav>
   <a target="_blank" href="https://www.linkedin.com/in/jramer/"><img class="headshot" src="../assets/Jon.JPG" alt="Photo of Jon Ramer"></a>
@@ -10,9 +11,9 @@
 </section>
 
 
-<h1 id="portfolioSection">Portfolio</h1>
 
 <main>
+  <h1 id="portfolioSection">Portfolio</h1>
   <section class="project" ng-click="$ctrl.loadItunes()">
     <img class="thumbnail" src="../assets/itunes.png" alt="">
     <h4>My First Web App</h4>
