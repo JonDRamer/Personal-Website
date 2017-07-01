@@ -29,6 +29,7 @@
         .animate({
           scrollTop: portfolio
         }, 800);
+      vm.toggleNav();
     }
 
     vm.jumpToAbout = function() {
@@ -39,6 +40,7 @@
         .animate({
           scrollTop: about
         }, 1000);
+      vm.toggleNav();
     }
 
 
@@ -50,6 +52,7 @@
         .animate({
           scrollTop: skills
         }, 1200);
+      vm.toggleNav();
     }
     vm.jumpToContact = function() {
       let contact = $('.chat')
@@ -59,6 +62,12 @@
         .animate({
           scrollTop: contact
         }, 1400);
+      vm.toggleNav();
+    }
+
+    vm.toggleNav = () => {
+      $('.sideNav')
+        .toggleClass('sideNavActive');
     }
   }
 
