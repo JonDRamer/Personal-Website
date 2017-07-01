@@ -57,7 +57,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   flex-direction: row wrap;
-  height: 10vh;
+  /*height: 10vh;*/
   width: 100vw;
   margin-right: 10vw;
 }

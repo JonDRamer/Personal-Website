@@ -38,18 +38,9 @@
       $('body')
         .animate({
           scrollTop: about
-        }, 800);
+        }, 1000);
     }
 
-    vm.jumpToFooter = function() {
-      let footer = $('footer')
-        .offset()
-        .top;
-      $('body')
-        .animate({
-          scrollTop: footer
-        }, 800);
-    }
 
     vm.jumpToSkills = function() {
       let skills = $('.skills')
@@ -58,7 +49,16 @@
       $('body')
         .animate({
           scrollTop: skills
-        }, 800);
+        }, 1200);
+    }
+    vm.jumpToContact = function() {
+      let contact = $('.chat')
+        .offset()
+        .top;
+      $('body')
+        .animate({
+          scrollTop: contact
+        }, 1400);
     }
   }
 
