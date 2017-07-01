@@ -255,6 +255,61 @@ h4:hover {
   font-weight: 200;
 }
 
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100vw;
+  margin-bottom: 50px;
+}
+
+.skillsHeader {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100vw;
+  color: black;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+i {
+  width: 100vw;
+  text-align: center;
+}
+
+.skill {
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 2vh;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+}
+
+.chat {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: #FDCD3B;
+  height: 30vh;
+  width: 100vw;
+}
+
+.chatHeader {
+  width: 100vw;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -262,8 +317,8 @@ footer {
   flex-flow: row wrap;
   height: 20vh;
   width: 100vw;
-  background-color: #ffffff;
-  border: 1px solid white;
+  background-color: black;
+  background-image: url("../assets/project.jpeg");
   box-shadow: 6px 7px 22px 2px rgba(0, 0, 0, 0.75);
 }
 
@@ -281,7 +336,7 @@ footer {
   align-items: center;
   flex-flow: row wrap;
   height: 80%;
-  width: 30%;
+  width: 10%;
 }
 
 .label {
@@ -290,15 +345,7 @@ footer {
   width: 100%;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.glyphicon {
-  height: 60px;
-  width: 60px;
-}
-
-.glyphicon:hover {
-  cursor: pointer;
+  color: white;
 }
 
 a {
