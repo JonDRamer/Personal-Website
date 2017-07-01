@@ -157,7 +157,7 @@ h1 {
   color: black;
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 5vh;
   margin-bottom: 0;
 }
@@ -275,7 +275,7 @@ h4:hover {
   font-weight: 600;
 }
 
-i {
+.fa fa-arrow-down {
   width: 100vw;
   text-align: center;
 }
@@ -302,12 +302,12 @@ i {
   flex-flow: row wrap;
   align-items: center;
   background-color: #FDCD3B;
-  height: 30vh;
   width: 100vw;
 }
 
 .chatHeader {
   width: 100vw;
+  /*margin-bottom: 15vh; these should be media queries*/
 }
 
 footer {
@@ -315,19 +315,17 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  height: 20vh;
   width: 100vw;
   background-color: black;
   background-image: url("../assets/project.jpeg");
-  box-shadow: 6px 7px 22px 2px rgba(0, 0, 0, 0.75);
+  /*box-shadow: 6px 7px 22px 2px rgba(0, 0, 0, 0.75);*/
 }
 
 .footerContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-flow: row wrap;
   align-items: center;
-  height: 100%;
 }
 
 .icon {
@@ -335,17 +333,16 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  height: 80%;
-  width: 10%;
+  /*margin-top: 5vh;*/
+  /*margin-bottom: 5vh;*/
+  height: 15vh;
 }
 
 .label {
   display: flex;
   justify-content: center;
-  width: 100%;
-  margin-top: 0;
-  margin-bottom: 0;
   color: white;
+  width: 100%;
 }
 
 a {
