@@ -22,10 +22,6 @@
     vm.loadBwwmc = () => $state.go('bwwmc');
 
     vm.jumpToPortfolio = function() {
-      // $('body,html')
-      //   .animate({
-      //     scrollTop: 700
-      //     }, 800);
       let portfolio = $('#portfolioSection')
         .offset()
         .top;
@@ -36,9 +32,23 @@
     }
 
     vm.jumpToAbout = function() {
+      let aboutHeader = $('.aboutHeader')
+        .offset()
+        .top;
       $('body')
         .animate({
-          scrollTop: 1500
+          scrollTop: aboutHeader
+        }, 800);
+    }
+
+    vm.jumpToFooter = function() {
+      console.log("clicked");
+      let footer = $('footer')
+        .offset()
+        .top;
+      $('body')
+        .animate({
+          scrollTop: footer
         }, 800);
     }
   }
