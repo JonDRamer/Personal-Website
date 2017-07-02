@@ -12,16 +12,13 @@
   function controller($state) {
     const vm = this;
 
-    // vm.$onInit = function() {
-    // }
-
     vm.loadItunes = () => $state.go('itunes');
     vm.loadSimon = () => $state.go('simon');
     vm.loadReactSimon = () => $state.go('reactsimon');
     vm.loadReddit = () => $state.go('reddit');
     vm.loadBwwmc = () => $state.go('bwwmc');
 
-    vm.jumpToPortfolio = function() {
+    vm.jumpToPortfolio = (location) => {
       let portfolio = $('main')
         .offset()
         .top;
@@ -29,10 +26,10 @@
         .animate({
           scrollTop: portfolio
         }, 800);
-      vm.toggleNav();
+      vm.toggleNav(location);
     }
 
-    vm.jumpToAbout = function() {
+    vm.jumpToAbout = (location) => {
       let about = $('.about')
         .offset()
         .top;
@@ -40,11 +37,11 @@
         .animate({
           scrollTop: about
         }, 1000);
-      vm.toggleNav();
+      vm.toggleNav(location);
     }
 
 
-    vm.jumpToSkills = function() {
+    vm.jumpToSkills = (location) => {
       let skills = $('.skills')
         .offset()
         .top;
@@ -52,9 +49,9 @@
         .animate({
           scrollTop: skills
         }, 1200);
-      vm.toggleNav();
+      vm.toggleNav(location);
     }
-    vm.jumpToContact = function() {
+    vm.jumpToContact = (location) => {
       let contact = $('.chat')
         .offset()
         .top;
@@ -62,13 +59,16 @@
         .animate({
           scrollTop: contact
         }, 1400);
-      vm.toggleNav();
+      vm.toggleNav(location);
     }
 
-    vm.toggleNav = () => {
-      $('.sideNav')
-        .toggleClass('sideNavActive');
+    vm.toggleNav = function(location) {
+      console.log(location);
+      if (location === 'nav') {
+        $('.sideNav')
+          .toggleClass('sideNavActive');
+      }
     }
   }
 
-}());
+}());;

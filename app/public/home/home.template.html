@@ -1,8 +1,8 @@
 <div class="sideNav">
-  <p class="sideNavText" ng-click="$ctrl.jumpToPortfolio()">Portfolio</p>
-  <p class="sideNavText" ng-click="$ctrl.jumpToAbout()">About</p>
-  <p class="sideNavText" ng-click="$ctrl.jumpToSkills()">Skills</p>
-  <p class="sideNavText" ng-click="$ctrl.jumpToContact()">Contact</p>
+  <p class="sideNavText" ng-click="$ctrl.jumpToPortfolio('nav')">Portfolio</p>
+  <p class="sideNavText" ng-click="$ctrl.jumpToAbout('nav')">About</p>
+  <p class="sideNavText" ng-click="$ctrl.jumpToSkills('nav')">Skills</p>
+  <p class="sideNavText" ng-click="$ctrl.jumpToContact('nav')">Contact</p>
 </div>
 
 <section class="hero">
@@ -11,7 +11,7 @@
     <p class="navText" ng-click="$ctrl.jumpToAbout()">About</p>
     <p class="navText" ng-click="$ctrl.jumpToSkills()">Skills</p>
     <p class="navText" ng-click="$ctrl.jumpToContact()">Contact</p>
-    <i class="fa fa-bars fa-3x" aria-hidden="true" ng-click="$ctrl.toggleNav()"></i>
+    <i class="fa fa-bars fa-3x" aria-hidden="true" ng-click="$ctrl.toggleNav('nav')"></i>
   </nav>
   <a target="_blank" href="https://www.linkedin.com/in/jramer/"><img class="headshot" src="../assets/Jon.JPG" alt="Photo of Jon Ramer"></a>
   <p class="name">Jon Ramer</p>
