@@ -32,6 +32,12 @@
       vm.toggleNav(location);
     }
 
+    vm.toggleNav = function(location) {
+      if (location === 'nav') {
+        $('.sideNav')
+          .toggleClass('sideNavActive');
+      }
+    }
   }
 
 }());

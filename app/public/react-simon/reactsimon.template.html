@@ -1,3 +1,13 @@
+<div class="sideNav">
+  <p class="sideNavText" ng-click="$ctrl.goHome('nav')">Home</p>
+  <p class="sideNavText" ng-click="$ctrl.jumpToDescription('nav')">Description</p>
+  <a target="_blank" href="https://github.com/JonDRamer/Simon-React-Native"><p class="sideNavText" ng-click="$ctrl.toggleNav('nav')">GitHub</p></a>
+</div>
+
+<div class="hamburger">
+  <i class="fa fa-bars fa-3x" aria-hidden="true" ng-click="$ctrl.toggleNav('nav')"></i>
+</div>
+
 <section class="projectHero">
   <nav>
     <p class="navText" ng-click="$ctrl.goHome()">Home</p>
