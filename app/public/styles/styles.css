@@ -36,10 +36,12 @@ table {
 
 /*---------------------MY CSS STARTS HERE-----------------------------------*/
 
+
+/*
 body {
   height: 100vh;
   width: 100vw;
-}
+}*/
 
 nav {
   display: flex;
@@ -88,14 +90,24 @@ nav {
   color: #DCDCDC;
 }
 
+.hamburger {
+  display: flex;
+  background-color: black;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  margin: 0;
+  opacity: .45;
+}
+
 .fa-bars {
   color: white;
-  margin-top: 1vh;
-  position: fixed;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 @media (min-width: 500px) {
-  .fa-bars {
+  .hamburger {
     display: none;
   }
 }
@@ -145,7 +157,7 @@ nav {
 .headshot {
   height: 300px;
   width: 300px;
-  margin-top: 7vh;
+  margin-top: 10vh;
   border: 5px solid white;
   border-radius: 100%;
 }

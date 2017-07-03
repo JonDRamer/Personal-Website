@@ -18,6 +18,15 @@
     vm.loadReddit = () => $state.go('reddit');
     vm.loadBwwmc = () => $state.go('bwwmc');
 
+
+    vm.goHome = (location) => {
+      $('body')
+        .animate({
+          scrollTop: 0
+        }, 800);
+      vm.toggleNav(location);
+    }
+
     vm.jumpToPortfolio = (location) => {
       let portfolio = $('main')
         .offset()
@@ -63,7 +72,6 @@
     }
 
     vm.toggleNav = function(location) {
-      console.log(location);
       if (location === 'nav') {
         $('.sideNav')
           .toggleClass('sideNavActive');
