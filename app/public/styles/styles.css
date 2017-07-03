@@ -469,3 +469,7 @@ a:hover {
   width: 100vw;
   background-image: url("../assets/project.jpeg");
 }
+
+.projectLinks {
+  width: 100%;
+}
