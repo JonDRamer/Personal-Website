@@ -36,13 +36,6 @@ table {
 
 /*---------------------MY CSS STARTS HERE-----------------------------------*/
 
-
-/*
-body {
-  height: 100vh;
-  width: 100vw;
-}*/
-
 nav {
   display: flex;
   justify-content: flex-end;
@@ -296,14 +289,26 @@ h4:hover {
   font-weight: 600;
 }
 
-.aboutText {
+.aboutText1 {
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+  color: white;
+  margin-top: 5vh;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+}
+
+.aboutText2 {
   display: flex;
   justify-content: center;
   width: 60vw;
   color: white;
   margin-top: 5vh;
   margin-bottom: 5vh;
-  padding: 2vh;
   line-height: 1.5;
   letter-spacing: 1px;
   font-size: 25px;
