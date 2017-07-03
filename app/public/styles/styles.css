@@ -91,12 +91,10 @@ nav {
 }
 
 .hamburger {
-  display: flex;
   background-color: black;
   width: 100vw;
   height: 10vh;
   position: fixed;
-  margin: 0;
   opacity: .45;
 }
 
@@ -165,6 +163,7 @@ nav {
 .name {
   display: flex;
   justify-content: center;
+  text-align: center;
   flex-flow: row wrap;
   width: 100vw;
   color: white;
@@ -182,6 +181,7 @@ nav {
 .title {
   display: flex;
   justify-content: center;
+  text-align: center;
   flex-flow: row wrap;
   width: 100vw;
   color: white;

@@ -17,6 +17,7 @@
     vm.loadReactSimon = () => $state.go('reactsimon');
     vm.loadReddit = () => $state.go('reddit');
     vm.loadBwwmc = () => $state.go('bwwmc');
+    vm.loadCapstone = () => $state.go('capstone');
 
 
     vm.goHome = (location) => {

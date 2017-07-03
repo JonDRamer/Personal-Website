@@ -44,6 +44,11 @@
         name: 'bwwmc',
         url: '/BWWMC',
         component: 'bwwmc'
+      })
+      .state({
+        name: 'capstone',
+        url: '/Capstone',
+        component: 'capstone'
       });
   }
 
