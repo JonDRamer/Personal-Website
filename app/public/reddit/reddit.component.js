@@ -20,6 +20,17 @@
     }
 
     vm.goHome = () => $state.go('home');
+
+    vm.jumpToDescription = (location) => {
+      let description = $('main')
+        .offset()
+        .top;
+      $('body')
+        .animate({
+          scrollTop: description
+        }, 800);
+      vm.toggleNav(location);
+    }
   }
 
 }());
