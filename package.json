@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.config.js",
   "dependencies": {
-    "angular-ui-router": "^1.0.3"
+    "angular-ui-router": "^1.0.3",
+    "clipboard-js": "^0.3.5"
   },
   "devDependencies": {},
   "scripts": {

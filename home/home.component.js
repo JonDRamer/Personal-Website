@@ -78,6 +78,11 @@
           .toggleClass('sideNavActive');
       }
     }
+
+    vm.copyEmail = function() {
+      clipboard.copy("jramer87@gmail.com");
+      // alert("Email was copied to the clipboard.")
+    }
   }
 
 }());;
